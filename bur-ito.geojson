@@ -409,9 +409,14 @@
             },
             "type": "Feature",
             "properties": {
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
                 "arc": 1,
                 "start": "undefined,undefined",
-                "end": "undefined,undefined"
+                "end": "undefined,undefined",
+                "kind": "subway",
+                "ref": "BUR"
             }
         }
     ]
