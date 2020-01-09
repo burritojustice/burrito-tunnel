@@ -10,7 +10,8 @@ global:
 sources:
     burrito_tunnel:
         type: GeoJSON
-        url: https://gist.githubusercontent.com/burritojustice/a597abd5d590dc236fbd9ba4d8d8c742/raw/burrito_tunnel.geojson
+        url: burrito-tunnel.geojson
+#         url: https://gist.githubusercontent.com/burritojustice/a597abd5d590dc236fbd9ba4d8d8c742/raw/burrito_tunnel.geojson
     mapzen:
         url: https://tile.nextzen.org/tilezen/vector/v1/512/all/{z}/{x}/{y}.topojson
     normals: 
