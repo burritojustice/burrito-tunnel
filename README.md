@@ -2,7 +2,7 @@
 
 Who knew it goes under Chicago?
 
-
+![screenshot](burrito-tunnel-path.png)
 
 https://burritojustice.github.io/burrito-tunnel/
 
