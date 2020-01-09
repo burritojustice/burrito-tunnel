@@ -4,6 +4,7 @@ import: https://www.nextzen.org/carto/walkabout-style/walkabout-style.yaml
 
 global:
     sdk_mapzen_api_key: DpCrhQqsR2igQPEINRTfcw
+    api_key: DpCrhQqsR2igQPEINRTfcw
     sdk_transit_overlay: true
     sdk_bathymetry: true
 
