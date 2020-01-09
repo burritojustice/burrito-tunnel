@@ -5,6 +5,7 @@ import: https://www.nextzen.org/carto/walkabout-style/walkabout-style.yaml
 global:
     sdk_mapzen_api_key: DpCrhQqsR2igQPEINRTfcw
     api_key: DpCrhQqsR2igQPEINRTfcw
+
     sdk_transit_overlay: true
     sdk_bathymetry: true
 
@@ -13,12 +14,25 @@ sources:
         type: GeoJSON
         url: bur-ito.geojson
     mapzen:
-        type: TopoJSON
-        url: https://tile.nextzen.org/tilezen/vector/v1/512/all/{z}/{x}/{y}.topojson
+        type: MVT
+        url: https://tile.nextzen.org/tilezen/vector/v1/512/all/{z}/{x}/{y}.mvt
     normals: 
         url: https://tile.nextzen.org/tilezen/terrain/v1/512/normal/{z}/{x}/{y}.png
 
 layers:
+    bur-ito:
+        data: { source: burrito_tunnel}
+        draw:
+            text:
+                collide: false
+                blend_order: 100
+                text_source: name
+                font:
+                    size: 20px
+                    fill: red
+                    stroke:
+                        color: white
+                        width: 4px
     transit:
         enabled: false
     burrito:
